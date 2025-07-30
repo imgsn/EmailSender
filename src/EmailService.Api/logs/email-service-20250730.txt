@@ -1,0 +1,3 @@
+2025-07-30 12:02:05.932 +03:00 [INF] Email queued successfully. ID: 1, To: string
+2025-07-30 12:06:33.787 +03:00 [INF] Email queued successfully. ID: 2, To: imgsna@gmail.com
+2025-07-30 12:06:46.255 +03:00 [INF] Email queued successfully. ID: 3, To: imgsna@gmail.com

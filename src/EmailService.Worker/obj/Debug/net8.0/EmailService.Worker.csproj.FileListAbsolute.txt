@@ -168,3 +168,4 @@ D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\obj\Debug\net8.0\refint\Ema
 D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\obj\Debug\net8.0\EmailService.Worker.pdb
 D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\obj\Debug\net8.0\EmailService.Worker.genruntimeconfig.cache
 D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\obj\Debug\net8.0\ref\EmailService.Worker.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\obj\Debug\net8.0\EmailService.Worker.sourcelink.json

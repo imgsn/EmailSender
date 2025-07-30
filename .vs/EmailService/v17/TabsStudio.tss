@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\appsettings.json</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Api\appsettings.json</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Data\EmailDbContext.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Api\Controllers\EmailController.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Program.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\EmailProcessorWorker.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\SfdaWork\EmailSender\src\EmailService.Data\Repositories\EmailRepository.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

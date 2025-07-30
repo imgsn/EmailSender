@@ -164,3 +164,4 @@ D:\Work\SfdaWork\EmailSender\src\EmailService.Api\obj\Debug\net8.0\refint\EmailS
 D:\Work\SfdaWork\EmailSender\src\EmailService.Api\obj\Debug\net8.0\EmailService.Api.pdb
 D:\Work\SfdaWork\EmailSender\src\EmailService.Api\obj\Debug\net8.0\EmailService.Api.genruntimeconfig.cache
 D:\Work\SfdaWork\EmailSender\src\EmailService.Api\obj\Debug\net8.0\ref\EmailService.Api.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Api\obj\Debug\net8.0\EmailService.Api.sourcelink.json

@@ -15,3 +15,4 @@ D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\refint\Email
 D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.pdb
 D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.genruntimeconfig.cache
 D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\ref\EmailService.Data.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.sourcelink.json

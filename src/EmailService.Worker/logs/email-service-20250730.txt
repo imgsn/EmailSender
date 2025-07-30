@@ -1,0 +1,228 @@
+2025-07-30 12:03:00.809 +03:00 [INF] Email Processor Worker started at: "2025-07-30T12:03:00.7974371+03:00"
+2025-07-30 12:03:03.259 +03:00 [INF] Processing 1 pending emails
+2025-07-30 12:03:03.369 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32
+2025-07-30 12:03:08.742 +03:00 [INF] Processing 1 pending emails
+2025-07-30 12:03:08.771 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32
+2025-07-30 12:03:13.804 +03:00 [INF] Processing 1 pending emails
+2025-07-30 12:03:13.839 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32
+2025-07-30 12:07:26.302 +03:00 [INF] Email Processor Worker started at: "2025-07-30T12:07:26.2956200+03:00"
+2025-07-30 12:07:26.838 +03:00 [INF] Processing 2 pending emails
+2025-07-30 12:07:27.117 +03:00 [ERR] Failed to send email. ID: 3, To: imgsna@gmail.com
+System.Net.Mail.SmtpException: Server does not support secure connections.
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 34
+2025-07-30 12:07:27.117 +03:00 [ERR] Failed to send email. ID: 2, To: imgsna@gmail.com
+System.Net.Mail.SmtpException: Server does not support secure connections.
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 34
+2025-07-30 12:07:27.169 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'EmailService.Data.EmailDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-07-30 12:07:27.231 +03:00 [ERR] Error processing email 3
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EmailService.Data.Repositories.EmailRepository.UpdateEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Data\Repositories\EmailRepository.cs:line 39
+   at EmailService.Worker.Services.EmailSenderService.UpdateEmailStatusAsync(Int32 emailId, String status, String errorMessage) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 100
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 52
+   at EmailService.Worker.EmailProcessorWorker.<>c__DisplayClass5_0.<<ExecuteAsync>b__0>d.MoveNext() in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\EmailProcessorWorker.cs:line 46
+2025-07-30 12:07:32.480 +03:00 [INF] Processing 2 pending emails
+2025-07-30 12:07:32.529 +03:00 [ERR] Failed to send email. ID: 2, To: imgsna@gmail.com
+System.Net.Mail.SmtpException: Server does not support secure connections.
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 34
+2025-07-30 12:07:32.546 +03:00 [ERR] Failed to send email. ID: 3, To: imgsna@gmail.com
+System.Net.Mail.SmtpException: Server does not support secure connections.
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 34
+2025-07-30 12:07:32.555 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'EmailService.Data.EmailDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-07-30 12:07:32.622 +03:00 [ERR] Error processing email 3
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EmailService.Data.Repositories.EmailRepository.UpdateEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Data\Repositories\EmailRepository.cs:line 39
+   at EmailService.Worker.Services.EmailSenderService.UpdateEmailStatusAsync(Int32 emailId, String status, String errorMessage) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 100
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 52
+   at EmailService.Worker.EmailProcessorWorker.<>c__DisplayClass5_0.<<ExecuteAsync>b__0>d.MoveNext() in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\EmailProcessorWorker.cs:line 46
+2025-07-30 12:07:37.691 +03:00 [INF] Processing 2 pending emails
+2025-07-30 12:07:37.724 +03:00 [ERR] Failed to send email. ID: 2, To: imgsna@gmail.com
+System.Net.Mail.SmtpException: Server does not support secure connections.
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 34
+2025-07-30 12:07:37.742 +03:00 [ERR] Failed to send email. ID: 3, To: imgsna@gmail.com
+System.Net.Mail.SmtpException: Server does not support secure connections.
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 34
+2025-07-30 12:07:37.746 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'EmailService.Data.EmailDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-07-30 12:07:37.807 +03:00 [ERR] Error processing email 3
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EmailService.Data.Repositories.EmailRepository.UpdateEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Data\Repositories\EmailRepository.cs:line 39
+   at EmailService.Worker.Services.EmailSenderService.UpdateEmailStatusAsync(Int32 emailId, String status, String errorMessage) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 100
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 52
+   at EmailService.Worker.EmailProcessorWorker.<>c__DisplayClass5_0.<<ExecuteAsync>b__0>d.MoveNext() in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\EmailProcessorWorker.cs:line 46
+2025-07-30 12:08:19.267 +03:00 [INF] Email Processor Worker started at: "2025-07-30T12:08:19.2566835+03:00"
+2025-07-30 12:11:46.057 +03:00 [INF] Processing 3 pending emails
+2025-07-30 12:11:46.492 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32
+2025-07-30 12:11:47.815 +03:00 [ERR] Failed to send email. ID: 3, To: imgsna@gmail.com
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.set_Item(TKey key, TValue value)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityReferenceMap.Update(InternalEntityEntry entry, EntityState state, Nullable`1 oldState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.UpdateReferenceMaps(InternalEntityEntry entry, EntityState state, Nullable`1 oldState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.ChangingState(InternalEntityEntry entry, EntityState newState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.FireStateChanging(EntityState newState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at EmailService.Data.Repositories.EmailRepository.UpdateEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Data\Repositories\EmailRepository.cs:line 38
+   at EmailService.Worker.Services.EmailSenderService.UpdateEmailStatusAsync(Int32 emailId, String status, String errorMessage) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 100
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 36
+2025-07-30 12:11:47.816 +03:00 [INF] Email sent successfully. ID: 2, To: imgsna@gmail.com
+2025-07-30 12:11:47.887 +03:00 [ERR] Error processing email 3
+System.InvalidOperationException: The instance of entity type 'EmailQueue' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at EmailService.Data.Repositories.EmailRepository.UpdateEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Data\Repositories\EmailRepository.cs:line 38
+   at EmailService.Worker.Services.EmailSenderService.UpdateEmailStatusAsync(Int32 emailId, String status, String errorMessage) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 100
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 52
+   at EmailService.Worker.EmailProcessorWorker.<>c__DisplayClass5_0.<<ExecuteAsync>b__0>d.MoveNext() in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\EmailProcessorWorker.cs:line 46
+2025-07-30 12:11:52.911 +03:00 [INF] Processing 2 pending emails
+2025-07-30 12:11:52.954 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32
+2025-07-30 12:11:52.986 +03:00 [INF] Email sent successfully. ID: 3, To: imgsna@gmail.com
+2025-07-30 12:11:58.001 +03:00 [INF] Processing 1 pending emails
+2025-07-30 12:11:58.035 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32
+2025-07-30 12:12:03.056 +03:00 [INF] Processing 1 pending emails
+2025-07-30 12:12:03.449 +03:00 [ERR] Failed to send email. ID: 1, To: string
+System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.TryReadCfwsAndThrowIfIncomplete(String data, Int32 index, Int32& outIndex, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseDomain(String data, Int32& index, String& domain, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.TryParseAddress(String data, Boolean expectMultipleAddresses, Int32& index, ParseAddressInfo& parseAddressInfo, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at EmailService.Worker.Services.EmailSenderService.CreateMailMessage(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 150
+   at EmailService.Worker.Services.EmailSenderService.SendEmailAsync(EmailQueue emailQueue) in D:\Work\SfdaWork\EmailSender\src\EmailService.Worker\Services\EmailSenderService.cs:line 32

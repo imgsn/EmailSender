@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\SfdaWork\\EmailSender\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC6C2EC-6A9F-48B4-AFBC-A7D990D4FF84}|src\\EmailService.Data\\EmailService.Data.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.data\\repositories\\emailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC6C2EC-6A9F-48B4-AFBC-A7D990D4FF84}|src\\EmailService.Data\\EmailService.Data.csproj|solutionrelative:src\\emailservice.data\\repositories\\emailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.worker\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|solutionrelative:src\\emailservice.worker\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.worker\\emailprocessorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|solutionrelative:src\\emailservice.worker\\emailprocessorworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|solutionrelative:src\\emailservice.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{332C1639-A9D5-42C0-9D5F-BD220D9B4AB3}|src\\EmailService.Worker\\EmailService.Worker.csproj|solutionrelative:src\\emailservice.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107ADBC4-1833-4864-BB34-84AA7D7F1945}|src\\EmailService.Api\\EmailService.Api.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{107ADBC4-1833-4864-BB34-84AA7D7F1945}|src\\EmailService.Api\\EmailService.Api.csproj|solutionrelative:src\\emailservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{107ADBC4-1833-4864-BB34-84AA7D7F1945}|src\\EmailService.Api\\EmailService.Api.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{107ADBC4-1833-4864-BB34-84AA7D7F1945}|src\\EmailService.Api\\EmailService.Api.csproj|solutionrelative:src\\emailservice.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC6C2EC-6A9F-48B4-AFBC-A7D990D4FF84}|src\\EmailService.Data\\EmailService.Data.csproj|d:\\work\\sfdawork\\emailsender\\src\\emailservice.data\\emaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC6C2EC-6A9F-48B4-AFBC-A7D990D4FF84}|src\\EmailService.Data\\EmailService.Data.csproj|solutionrelative:src\\emailservice.data\\emaildbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailRepository.cs",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Data\\Repositories\\EmailRepository.cs",
+              "RelativeDocumentMoniker": "src\\EmailService.Data\\Repositories\\EmailRepository.cs",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Data\\Repositories\\EmailRepository.cs",
+              "RelativeToolTip": "src\\EmailService.Data\\Repositories\\EmailRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:11:17.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailProcessorWorker.cs",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\EmailProcessorWorker.cs",
+              "RelativeDocumentMoniker": "src\\EmailService.Worker\\EmailProcessorWorker.cs",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\EmailProcessorWorker.cs",
+              "RelativeToolTip": "src\\EmailService.Worker\\EmailProcessorWorker.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:09:21.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "src\\EmailService.Worker\\Program.cs",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\Program.cs",
+              "RelativeToolTip": "src\\EmailService.Worker\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:09:15.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "src\\EmailService.Worker\\Services\\EmailSenderService.cs",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "src\\EmailService.Worker\\Services\\EmailSenderService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAIAwwFcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:05:35.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Api\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "src\\EmailService.Api\\Controllers\\EmailController.cs",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Api\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "src\\EmailService.Api\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:05:21.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailDbContext.cs",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Data\\EmailDbContext.cs",
+              "RelativeDocumentMoniker": "src\\EmailService.Data\\EmailDbContext.cs",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Data\\EmailDbContext.cs",
+              "RelativeToolTip": "src\\EmailService.Data\\EmailDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:05:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\EmailService.Api\\appsettings.json",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\EmailService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T08:58:58.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\EmailService.Worker\\appsettings.json",
+              "ToolTip": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Worker\\appsettings.json",
+              "RelativeToolTip": "src\\EmailService.Worker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T08:55:58.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

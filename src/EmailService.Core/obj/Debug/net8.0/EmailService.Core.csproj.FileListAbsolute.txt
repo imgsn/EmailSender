@@ -9,3 +9,4 @@ D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService
 D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\refint\EmailService.Core.dll
 D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.pdb
 D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\ref\EmailService.Core.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.sourcelink.json
