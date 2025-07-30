@@ -1,0 +1,11 @@
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\bin\Debug\net8.0\EmailService.Core.deps.json
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\bin\Debug\net8.0\EmailService.Core.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\bin\Debug\net8.0\EmailService.Core.pdb
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.AssemblyInfoInputs.cache
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.AssemblyInfo.cs
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.csproj.CoreCompileInputs.cache
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\refint\EmailService.Core.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\EmailService.Core.pdb
+D:\Work\SfdaWork\EmailSender\src\EmailService.Core\obj\Debug\net8.0\ref\EmailService.Core.dll

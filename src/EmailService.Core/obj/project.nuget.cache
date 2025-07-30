@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vvvrv79AbcU=",
+  "success": true,
+  "projectFilePath": "D:\\Work\\SfdaWork\\EmailSender\\src\\EmailService.Core\\EmailService.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

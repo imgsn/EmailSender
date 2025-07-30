@@ -1,0 +1,17 @@
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\bin\Debug\net8.0\EmailService.Data.deps.json
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\bin\Debug\net8.0\EmailService.Data.runtimeconfig.json
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\bin\Debug\net8.0\EmailService.Data.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\bin\Debug\net8.0\EmailService.Data.pdb
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\bin\Debug\net8.0\EmailService.Core.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\bin\Debug\net8.0\EmailService.Core.pdb
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.csproj.AssemblyReference.cache
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.AssemblyInfoInputs.cache
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.AssemblyInfo.cs
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.csproj.CoreCompileInputs.cache
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailSer.3F99E56A.Up2Date
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\refint\EmailService.Data.dll
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.pdb
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\EmailService.Data.genruntimeconfig.cache
+D:\Work\SfdaWork\EmailSender\src\EmailService.Data\obj\Debug\net8.0\ref\EmailService.Data.dll

@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "YourStrong@Passw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+  email-service:
+    build: .
+    depends_on:
+      - sqlserver
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=EmailServiceDb;User=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=true;
+    volumes:
+      - ./logs:/app/logs
+
+  email-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.Api
+    depends_on:
+      - sqlserver
+    ports:
+      - "8080:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=EmailServiceDb;User=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=true;
+
+volumes:
+  sqlserver_data:
