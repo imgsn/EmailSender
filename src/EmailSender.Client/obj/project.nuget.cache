@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GCg5s14WCIM=",
+  "success": true,
+  "projectFilePath": "D:\\Work\\AdeSfdaWork\\repo\\EmailSender\\src\\EmailSender.Client\\EmailSender.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
